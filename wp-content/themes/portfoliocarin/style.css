@@ -1,0 +1,115 @@
+/*
+  Theme Name: Portofolio - Carin
+  Author: Carin Nöjd
+  Author URI: http://carinnojd.se
+  Version: 1.0
+*/
+
+
+body{
+	background-color: #BBF;
+	font-family: Arial;
+	line-height: 1.7;
+  font-size: 1em;
+}
+a {
+  text-decoration: none;
+}
+
+.header img{
+  max-width: 100%;
+  position: relative; 
+}
+.h1 a {
+  font-size: 2em;
+  color: white;
+}
+.site-title { 
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  position: absolute; 
+  top: 30%; 
+  left: 0; 
+  width: 20%; 
+  /*background: rgb(0, 0, 0); /* fallback color */
+  padding: 0.5%;
+  padding-left: 1%;
+  text-align: center; 
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1%;
+}
+.post {
+  border-bottom: 2px solid black;
+}
+.post:last-of-type {
+  border-bottom: none;
+}
+
+/* Navigation Menus */
+.navbar ul,
+.navbarFooter ul {
+  margin: 0;
+  padding: 0;
+}
+.navbar ul:before, .navbar ul:after,
+.navbarFooter ul:before, .navbarFooter ul:after {
+  content: "";
+}
+.navbar ul,
+.navbarFooter ul {
+  *zoom: 1;
+}
+.navbar ul li,
+.navbarFooter ul li {
+  list-style: none;
+  display: inline-block;
+}
+/* Header Menu */
+.navbar ul li a:link {
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: red;
+}
+.navbar ul li.current-menu-item a:link,
+.navbar ul li.current-menu-item a:visited,
+.navbar ul li.current-page-ancestor a:link,
+.navbar ul li.current-page-ancestor a:visited {
+  color: green;
+}
+/*Childrens links*/
+.children-links {
+  font-size: 0.8em;
+}
+.children-links .parent-link {
+  float: left;
+  margin-right: 1em;
+  padding-right: 1em;
+  border-right: 1px solid #DDD;
+  font-size: 120%;
+  font-weight: bold;
+}
+.children-links .current_page_item a:link {
+  border-bottom: 1px dotted #DDD;
+}
+
+/* Images Styles */
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+/* Search */
+.search {
+  float: right;
+}
+#searchsubmit {
+  background-color: black;
+  color: #FFF;
+  border: none;
+}
